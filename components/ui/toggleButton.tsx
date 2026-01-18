@@ -69,10 +69,11 @@ export const ToggleButton = forwardRef<HTMLButtonElement, ToggleButtonProps>(
         disabled={disabled}
         onClick={handleToggle}
         onKeyDown={handleKeyDown}
+        suppressHydrationWarning
         style={{
           width: config.width,
           height: config.height,
-          backgroundColor: isOn ? "#6b21a8" : "#d1d5db", // purple-800 : gray-300
+          backgroundColor: isOn ? "#6b21a8ce" : "#d1d5db",
           borderRadius: 9999,
           padding: 2,
           display: "inline-flex",
@@ -86,6 +87,7 @@ export const ToggleButton = forwardRef<HTMLButtonElement, ToggleButtonProps>(
         className={className}
       >
         <span
+          suppressHydrationWarning
           style={{
             width: config.knob,
             height: config.knob,
