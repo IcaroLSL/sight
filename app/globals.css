@@ -16,15 +16,15 @@
 
 .dark {
   /* Dark theme */
-  --background: #0b0b0d;
-  --foreground: #ffffff;
+  --background: #1b1b1b;
+  --foreground: #f3f3f3;
   --primary: #8b5cf6;
-  --primary-foreground: #000000;
+  --primary-foreground: #1b1b1b;
   --border: #27272a;
-  --card: #111111;
+  --card: #1b1b1b;
   --muted: #9ca3af;
   --accent: #8b5cf6;
-  --popover: #111111;
+  --popover: #1b1b1b;
 }
 
 @layer base {
